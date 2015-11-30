@@ -49,4 +49,4 @@ gulp.task('svg2png', function () {
         .pipe(gulp.dest(dist));
 });
 
-gulp.task('default', ['svgo', 'svg2png']);
+gulp.task('default', ['svgo', 'svg2png', 'minify-png']);
