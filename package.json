@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/LegallaisEcommerce/supplier-logos#readme",
   "dependencies": {
+    "change-case": "^2.3.0",
     "del": "^2.1.0",
     "gulp": "^3.9.0",
     "gulp-imagemin": "^2.4.0",
     "gulp-newer": "^1.1.0",
+    "gulp-rename": "^1.2.2",
     "gulp-svg2png": "^0.3.0",
     "imagemin-pngcrush": "^4.1.0",
     "path": "^0.12.7"
