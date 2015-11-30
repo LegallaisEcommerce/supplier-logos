@@ -23,11 +23,11 @@ npm i
 	```sh
 	gulp svg2png
 	```
-	
-3. Minify png's 
+
+3. Minify png's
 
 	```sh
 	gulp minify-png
 	```
-	
+
 4. All your optimized .svg and .png copies are now in the `dist/` folder.
