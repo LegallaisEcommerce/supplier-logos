@@ -14,13 +14,14 @@ var project    = path.join(__dirname + '/');
 var ignore     = path.join('!' + __dirname + '/');
 var dist       = project + 'dist/';
 var srcLogos   = project + 'src/**/*.svg';
+var distLogos  = project + 'dist/**/*.svg';
 var distPngs   = project + 'dist/**/*.png';
 
 gulp.task('svgo', function () {
     return gulp.src(srcLogos)
         .pipe(newer(dist))
         .pipe(rename(function(path, file) {
-            path.basename = changeCase.paramCase(path.basename);
+            path.basename = changeCase.snakeCase(path.basename);
             return path;
         }))
         .pipe(imagemin({
@@ -44,7 +45,7 @@ gulp.task('minify-png', function () {
 });
 
 gulp.task('svg2png', function () {
-    gulp.src(srcLogos)
+    gulp.src(distLogos)
         .pipe(svg2png())
         .pipe(gulp.dest(dist));
 });
