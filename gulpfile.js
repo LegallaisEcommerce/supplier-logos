@@ -46,7 +46,7 @@ gulp.task('minify-png', function () {
 
 gulp.task('svg2png', function () {
     gulp.src(distLogos)
-        .pipe(svg2png())
+        .pipe(svg2png(1, true))
         .pipe(gulp.dest(dist));
 });
 
