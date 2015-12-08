@@ -13,9 +13,9 @@ var changeCase = require('change-case');
 var project    = path.join(__dirname + '/');
 var ignore     = path.join('!' + __dirname + '/');
 var dist       = project + 'dist/';
-var srcLogos   = project + 'src/**/*.svg';
-var distLogos  = project + 'dist/**/*.svg';
-var distPngs   = project + 'dist/**/*.png';
+var srcLogos   = project + 'src/*.svg';
+var distLogos  = project + 'dist/*.svg';
+var distPngs   = project + 'dist/*.png';
 
 gulp.task('svgo', function () {
     return gulp.src(srcLogos)
