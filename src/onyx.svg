@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g>
+	<path fill="#1F3887" d="M490.25,261.845c0,45.267-37.36,81.962-83.449,81.962H98.199c-46.088,0-83.449-36.695-83.449-81.962v-14.69
+		c0-45.266,37.36-81.961,83.449-81.961h308.602c46.089,0,83.449,36.695,83.449,81.961V261.845z"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="251.5637" y1="170.8252" x2="251.5637" y2="273.0093">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#1F3887;stop-opacity:0"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M455.924,216.954c0,24.143-19.134,43.715-42.734,43.715H89.938
+		c-23.601,0-42.735-19.572-42.735-43.715l0,0c0-24.144,19.134-43.715,42.735-43.715H413.19
+		C436.79,173.239,455.924,192.811,455.924,216.954L455.924,216.954z"/>
+	<circle fill="#FFFFFF" cx="105.868" cy="255.506" r="54.711"/>
+	<circle fill="#FF0000" cx="105.868" cy="255.506" r="20.919"/>
+	<rect x="161.986" y="204.617" fill="#FFFFFF" width="30.574" height="96.548"/>
+	<rect x="226.352" y="204.617" fill="#FFFFFF" width="30.573" height="96.548"/>
+	<polygon fill="#FFFFFF" points="443.585,301.165 406.575,301.165 336.577,204.617 373.588,204.617 	"/>
+	<polygon fill="#FFFFFF" points="443.585,301.165 406.575,301.165 336.577,204.617 373.588,204.617 	"/>
+	<polygon fill="#FFFFFF" points="329.739,299.958 366.749,299.958 436.746,203.41 399.737,203.41 	"/>
+	<polygon fill="#FFFFFF" points="298.361,301.165 260.144,301.165 328.934,204.617 367.152,204.617 	"/>
+	<polygon fill="#FFFFFF" points="325.314,254.5 293.936,262.948 256.12,204.617 294.74,204.617 	"/>
+	<polygon fill="#FFFFFF" points="256.12,301.165 225.547,301.165 161.986,204.617 192.56,204.617 	"/>
+</g>
+</svg>
