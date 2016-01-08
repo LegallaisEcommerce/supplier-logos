@@ -9,13 +9,14 @@ var newer      = require('gulp-newer');
 var exec       = require('child_process').exec;
 var rename     = require('gulp-rename');
 var changeCase = require('change-case');
+var run        = require('gulp-run');
 
-var project    = path.join(__dirname + '/');
-var ignore     = path.join('!' + __dirname + '/');
-var dist       = project + 'dist/';
-var srcLogos   = project + 'src/*.svg';
-var distLogos  = project + 'dist/*.svg';
-var distPngs   = project + 'dist/*.png';
+var project   = path.join(__dirname + '/');
+var ignore    = path.join('!' + __dirname + '/');
+var dist      = project + 'dist/';
+var srcLogos  = project + 'src/*.svg';
+var distLogos = project + 'dist/*.svg';
+var distPngs  = project + 'dist/*.png';
 
 gulp.task('svgo', function () {
     return gulp.src(srcLogos)
@@ -44,10 +45,14 @@ gulp.task('minify-png', function () {
         .pipe(gulp.dest(dist));
 });
 
+// gulp.task('svg2png', function () {
+//     gulp.src(distLogos)
+//         .pipe(svg2png(1, true))
+//         .pipe(gulp.dest(dist));
+// });
+
 gulp.task('svg2png', function () {
-    gulp.src(distLogos)
-        .pipe(svg2png(1, true))
-        .pipe(gulp.dest(dist));
+  run('cd dist/ && mogrify -format png *.svg').exec();
 });
 
 gulp.task('default', ['svgo', 'svg2png', 'minify-png']);
