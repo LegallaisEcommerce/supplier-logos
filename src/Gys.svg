@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+	 viewBox="0 0 500 470" style="enable-background:new 0 0 500 470;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#1762A1;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#FDC600;}
 </style>
-<g>
-	<rect x="25" y="45.4" class="st0" width="450" height="306.9"/>
-	<path class="st1" d="M171,200v-28.1H89c0,0-60.9,5.5-60.9,64s55.5,63.3,55.5,63.3h100.7v-72h-48.4v43.9h-28.1
-		c0,0-26.5-8.6-26.5-35.1c0-26.6,29.2-35.9,29.2-35.9L171,200z"/>
-	<polygon class="st1" points="172.9,172.6 227.9,172.6 263.2,220 297.9,171.9 352.9,171.9 289.4,248.8 289.4,298.9 233.1,298.9 
-		233.1,248.8 	"/>
-	<path class="st1" d="M407.9,197.1h51.7v-27.8h-67.4c0,0-54.6,3.3-54.6,40.9c0,34,79.2,39.9,79.2,53c0,9.8-15.7,9.5-15.7,9.5h-75.6
-		v29.5h83.4c0,0,64.8,3.3,64.8-43.9c0-47.1-79.5-30.8-79.5-53.3C394.1,194.8,407.9,197.1,407.9,197.1z"/>
-	<rect x="106.5" y="227.3" class="st2" width="29.4" height="29.4"/>
-	<rect x="25" y="348.5" class="st2" width="450" height="106.1"/>
-</g>
+<rect x="25" y="30.4" class="st0" width="450" height="306.9"/>
+<path class="st1" d="M171,185v-28.1H89c0,0-60.9,5.5-60.9,64s55.5,63.3,55.5,63.3h100.7v-72h-48.4v43.9h-28.1
+	c0,0-26.5-8.6-26.5-35.1c0-26.6,29.2-35.9,29.2-35.9L171,185z"/>
+<polygon class="st1" points="172.9,157.6 227.9,157.6 263.2,205 297.9,156.9 352.9,156.9 289.4,233.8 289.4,283.9 233.1,283.9 
+	233.1,233.8 "/>
+<path class="st1" d="M407.9,182.1h51.7v-27.8h-67.4c0,0-54.6,3.3-54.6,40.9c0,34,79.2,39.9,79.2,53c0,9.8-15.7,9.5-15.7,9.5h-75.6
+	v29.5h83.4c0,0,64.8,3.3,64.8-43.9c0-47.1-79.5-30.8-79.5-53.3C394.1,179.8,407.9,182.1,407.9,182.1z"/>
+<rect x="106.5" y="212.3" class="st2" width="29.4" height="29.4"/>
+<rect x="25" y="333.5" class="st2" width="450" height="106.1"/>
 </svg>
