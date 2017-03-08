@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+	 viewBox="0 0 500 116" style="enable-background:new 0 0 500 116;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#CD2859;}
 </style>
-<path class="st0" d="M111,217.9h16v13.6h-16V217.9z M171,217.9h16v13.6h-16V217.9z M74.9,217.9h20.8v64.1H74.9v-24.7H45.7v24.7H25
-	v-64.2h20.7v25h29.2V217.9z M130.2,268.5l-7.9,13.5h-20.8l37.6-64.2h19.6l37.6,64.2h-20.8l-7.9-13.5H130.2z M148.9,236.7l-11.2,19
-	H160L148.9,236.7z M267.4,217.9v14.4H221v10.5h39.9v14.4H221v24.7h-19.8v-64.1L267.4,217.9L267.4,217.9z M291.2,242.9H331v14.4
-	h-39.9v10.3h46.4v14.4h-66.2v-64.2h66.2v14.4l-46.4,0V242.9z M342,217.9h19.8v49.8h43.1v14.4H342V217.9z M428.6,242.9h39.9v14.4
-	h-39.9v10.4H475v14.4h-66.1v-64.2H475v14.4l-46.4,0V242.9z"/>
+<rect x="171" y="25.9" class="st0" width="16" height="13.6"/>
+<polygon class="st0" points="74.9,50.8 45.7,50.8 45.7,25.8 25,25.8 25,90 45.7,90 45.7,65.3 74.9,65.3 74.9,90 95.7,90 95.7,25.9 
+	74.9,25.9 "/>
+<rect x="111" y="25.9" class="st0" width="16" height="13.6"/>
+<polygon class="st0" points="361.8,25.9 342,25.9 342,90.1 404.9,90.1 404.9,75.7 361.8,75.7 "/>
+<polygon class="st0" points="271.3,90 337.5,90 337.5,75.6 291.1,75.6 291.1,65.3 331,65.3 331,50.9 291.2,50.9 291.1,50.9 
+	291.1,40.2 337.5,40.2 337.5,25.8 271.3,25.8 "/>
+<polygon class="st0" points="475,40.3 475,25.9 408.9,25.9 408.9,90.1 475,90.1 475,75.7 428.6,75.7 428.6,65.3 468.5,65.3 
+	468.5,50.9 428.6,50.9 428.6,40.3 "/>
+<path class="st0" d="M139.1,25.8L101.5,90h20.8l7.9-13.5h37.4l7.9,13.5h20.8l-37.6-64.2H139.1z M137.7,63.7l11.2-19l11.1,19H137.7z"
+	/>
+<polygon class="st0" points="201.2,89.9 221,89.9 221,65.2 260.9,65.2 260.9,50.8 221,50.8 221,40.3 267.4,40.3 267.4,25.9 
+	201.2,25.8 "/>
 </svg>
