@@ -27,6 +27,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-run": "^1.7.1",
     "gulp-svg2png": "^0.3.0",
+    "gulp-svgmin": "^1.2.3",
     "imagemin-pngcrush": "^4.1.0",
     "path": "^0.12.7"
   }

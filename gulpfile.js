@@ -6,6 +6,7 @@ const fs         = require('fs')
 const pngcrush   = require('imagemin-pngcrush')
 const path       = require('path')
 const imagemin   = require('gulp-imagemin')
+const svgmin     = require('gulp-svgmin')
 const svg2png    = require('gulp-svg2png')
 const newer      = require('gulp-newer')
 const exec       = require('child_process').exec
@@ -23,19 +24,18 @@ const distPngs  = project + 'dist/*.svg.png'
 
 
 gulp.task('svgo', () => {
-    return gulp.src(srcLogos)
+    gulp.src(srcLogos)
         .pipe(newer(dist))
         .pipe(rename((path, file) => {
             path.basename = changeCase.snakeCase(path.basename)
             return path
         }))
-        .pipe(imagemin({
-            progressive : true,
-            svgoPlugins : [{
-                removeViewBox : false,
+        .pipe(svgmin({
+            plugins: [{
+                removeDoctype: true
             }, {
-                removeUselessStrokeAndFill : false,
-            }],
+                removeComments: true
+            }]
         }))
         .pipe(gulp.dest(dist))
 })
