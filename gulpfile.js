@@ -24,7 +24,8 @@ const distPngs  = project + 'dist/*.svg.png'
 
 
 gulp.task('svgo', () => {
-    gulp.src(srcLogos)
+    gulp.src(project + 'src/Abb.svg')
+    // gulp.src(srcLogos)
         .pipe(newer(dist))
         .pipe(rename((path, file) => {
             path.basename = changeCase.snakeCase(path.basename)

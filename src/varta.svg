@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 136" style="enable-background:new 0 0 500 136;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#00487A;}
+	.st3{fill:#00487A;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="24.0132" y1="67.5603" x2="118.25" y2="67.5603">
+	<stop  offset="0.5" style="stop-color:#0067B1"/>
+	<stop  offset="0.7" style="stop-color:#00487A"/>
+</linearGradient>
+<polygon class="st0" points="118.2,32.6 71.1,23 71.1,23 71.1,23 71.1,23 71.1,23 24,32.6 32,94.4 71.1,112.1 71.1,112.1 
+	71.1,112.1 71.1,112.1 71.1,112.1 110.3,94.4 "/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="24.0259" y1="72.3465" x2="118.2401" y2="72.3465">
+	<stop  offset="0.5" style="stop-color:#FFEB00"/>
+	<stop  offset="0.7" style="stop-color:#FCC200"/>
+</linearGradient>
+<polygon class="st1" points="71.1,43.9 24,32.6 71.1,112.1 118.2,32.6 "/>
+<polygon class="st2" points="176.1,98.2 148.3,32.6 168.5,32.6 186.2,74.7 203.9,32.6 223.9,32.6 196.2,98.2 176.1,98.2 "/>
+<polygon class="st2" points="369.1,98.2 369.1,50.7 351.1,50.7 351.1,32.5 406.3,32.5 406.3,50.7 387.8,50.7 387.8,98.2 369.1,98.2 
+	"/>
+<path class="st3" d="M241.9,32.5l-27.7,65.7h19.7l3.4-8.4h30.2l3.6,8.4H291l-28-65.7H241.9z M243.7,74.5l8.8-20.6l8.6,20.6H243.7z"
+	/>
+<path class="st3" d="M346.5,53.7c0-12.2-9.9-21.2-22-21.2h-33.4v65.7h18.1V70.9l23.4,27.2h23.6l-21.8-25.3
+	C341.9,69.6,346.5,61.9,346.5,53.7z M319.3,63.3h-10.2V47.4l10.2,0c5.3,0,8.9,2.3,8.9,7.9C328.2,61,324.6,63.3,319.3,63.3z"/>
+<path class="st3" d="M447.6,32.5h-21.1l-27.7,65.7h19.7l3.4-8.4h30.3l3.6,8.4h19.8L447.6,32.5z M428.3,74.5l8.8-20.6l8.6,20.6H428.3
+	z"/>
+<path class="st3" d="M464.8,39.1L464.8,39.1c0.9-0.3,1.5-0.9,1.5-1.7c0-0.7-0.3-1.2-0.7-1.5c-0.5-0.3-1.1-0.5-2.4-0.5
+	c-1.2,0-2,0.1-2.7,0.2v7h1.6v-2.8h0.8c0.9,0,1.3,0.3,1.5,1.1c0.2,0.8,0.3,1.5,0.6,1.7h1.8c-0.2-0.3-0.3-0.7-0.5-1.8
+	C465.8,39.9,465.4,39.4,464.8,39.1z M462.8,38.6h-0.8v-2c0.2,0,0.5-0.1,0.9-0.1c1,0,1.5,0.4,1.5,1.1
+	C464.5,38.3,463.7,38.6,462.8,38.6z"/>
+<path class="st3" d="M463.1,31.9c-4,0-7.2,3.1-7.2,7c0,4,3.2,7.1,7.2,7.1c4.1,0,7.2-3.1,7.2-7.1C470.3,35,467.2,31.9,463.1,31.9z
+	 M463.2,44.5c-3.2,0-5.5-2.5-5.5-5.6c0-3.1,2.3-5.6,5.4-5.6c3.1,0,5.4,2.5,5.4,5.6C468.5,42,466.3,44.5,463.2,44.5z"/>
+</svg>
