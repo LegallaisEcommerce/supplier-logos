@@ -2,12 +2,21 @@
 <html>
 <head>
     <title>Supplier Logos</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <style type="text/css" media="screen">
+        html {
+            font-family: 'Roboto', sans-serif;
+            color: #3c3c3c;
+        }
         .wrapper {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+        }
+
+        .title {
+            text-align: center;
         }
 
         .logo {
@@ -19,15 +28,35 @@
             padding: 1rem;
             border: 3px solid #e1e1e1;
             margin: .5rem;
+            position: relative;
+            cursor: pointer;
         }
 
         .logo__img {
             max-width: 100%;
             max-height: 100%;
         }
+
+        .logo__title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, .98);
+            color: #000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo:hover .logo__title {
+            display: flex;
+        }
     </style>
 </head>
 <body>
+    <h1 class="title"></h1>
     <div class="wrapper">
         <div class="logo">
             <img class="logo__img" src="http://beta.legallais.com/media_fr/brands/wiha.svg">
@@ -48,7 +77,7 @@
             <img class="logo__img" src="http://beta.legallais.com/media_fr/brands/arrow.svg">
         </div>
         <div class="logo">
-            <img class="logo__img" src="http://beta.legallais.com/media_fr/brands/sam-outillage.svg">
+            <img class="logo__img" src="http://beta.legallais.com/media_fr/brands/sam_outillage.svg">
         </div>
         <div class="logo">
             <img class="logo__img" src="http://beta.legallais.com/media_fr/brands/virax.svg">
@@ -1644,5 +1673,42 @@
             <img class="logo__img" src="http://beta.legallais.com/media_fr/brands/paulmann.svg">
         </div>
     </div>
+
+    <script>
+        function selectElementContents(el) {
+            const range = document.createRange()
+            range.selectNodeContents(el)
+            const selection = window.getSelection()
+            selection.removeAllRanges()
+            selection.addRange(range)
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const logos = document.querySelectorAll('.logo')
+            const title = document.querySelector('.title')
+
+            title.innerHTML = `${logos.length} logos`
+
+            logos.forEach(logo => {
+
+                const img  = logo.querySelector('.logo__img')
+                const url  = img.getAttribute('src')
+                const file = url.replace('http://beta.legallais.com/media_fr/brands/', '')
+                const name = file.replace('.svg', '')
+
+                const logoTitle = document.createElement('span')
+                logoTitle.classList.add('logo__title')
+                logoTitle.innerHTML = name
+
+                logo.appendChild(logoTitle)
+
+                logo.addEventListener('click', e => {
+                    selectElementContents(logoTitle)
+                })
+
+            })
+        })
+    </script>
 </body>
 </html>

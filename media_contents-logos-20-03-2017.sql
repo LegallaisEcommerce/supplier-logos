@@ -6,7 +6,7 @@ VALUES
     (59, 59, 2, 'FACOM', NULL, '/media_fr/brands/facom', '2016-09-15 14:30:47', '2016-09-15 14:30:47'),
     (108, 108, 2, 'EMILE PEYRON', NULL, '/media_fr/brands/emile_peyron', '2016-09-15 14:30:57', '2016-09-15 14:30:57'),
     (127, 127, 2, 'ARROW', NULL, '/media_fr/brands/arrow', '2016-09-15 14:31:02', '2016-09-15 14:31:02'),
-    (140, 140, 2, 'SAM outillage', NULL, '/media_fr/brands/sam-outillage', '2016-09-15 14:31:05', '2016-09-15 14:31:05'),
+    (140, 140, 2, 'SAM outillage', NULL, '/media_fr/brands/sam_outillage', '2016-09-15 14:31:05', '2016-09-15 14:31:05'),
     (152, 152, 2, 'VIRAX', NULL, '/media_fr/brands/virax', '2016-09-15 14:31:06', '2016-09-15 14:31:06'),
     (184, 184, 2, 'EDMA', NULL, '/media_fr/brands/edma', '2016-09-15 14:31:56', '2016-09-15 14:31:56'),
     (428, 428, 2, 'VIRUTEX', NULL, '/media_fr/brands/virutex', '2016-09-15 14:32:30', '2016-09-15 14:32:30'),
